@@ -3,7 +3,7 @@ import CassidyandJordanEngagementPhoto1 from '../app/assets/CassidyandJordanEnga
 
 const HomePage = () => {
     return (
-        <img src={CassidyandJordanEngagementPhoto1} alt='engagement photo one' className='my_image' />
+        <img src={CassidyandJordanEngagementPhoto1} alt='engagement photo one' className='img-fluid' />
     );
 }
 
