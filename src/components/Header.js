@@ -15,12 +15,12 @@ const Header = () => {
                 </NavItem>
                 <NavItem>
                     <NavLink>
-                        <i />RESERVATION
+                        <i />INFO
                     </NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink>
-                        <i />INFO
+                        <i />RESERVATION
                     </NavLink>
                 </NavItem>
                 <NavItem>

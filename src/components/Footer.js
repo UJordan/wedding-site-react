@@ -12,7 +12,7 @@ const Footer = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <p className='mb-4'>August 19, 2023</p>
+                        <p className='mb-4'>Month 01, 2023</p>
                     </Col>
                 </Row>
             </Container>
