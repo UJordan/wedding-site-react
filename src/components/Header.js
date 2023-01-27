@@ -3,13 +3,10 @@ import { Container, Navbar, NavbarBrand, Collapse, NavbarToggler, Nav, NavItem, 
 const Header = () => {
 
     return (
-        <Navbar sticky='top' expand='sm'>
-            {/* <Container> */}
-                <NavbarBrand>
-                    <h4 className='mt-2'> CASSIDY & JORDAN </h4>
-                </NavbarBrand>
-            {/* </Container> */}
-            {/* <NavbarToggler onClick={() => setMenuOpen(!setMenuOpen)}/> */}
+        <Navbar className='navbar navbar-expand-sm navbar-light bg-light sticky-top'>
+            <NavbarBrand>
+                <h4 className='mt-2'> CASSIDY & JORDAN </h4>
+            </NavbarBrand>
             <Nav className='ms-auto' navbar>
                 <NavItem>
                     <NavLink>
@@ -33,7 +30,6 @@ const Header = () => {
                 </NavItem>
             </Nav>
         </Navbar>
-
         
     );
 }

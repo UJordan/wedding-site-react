@@ -1,3 +1,13 @@
 footer {
   background-color: #889BAE;
 }
+
+
+@media (max-width:572px){
+  .bottom {
+    order: 2;
+  }
+  .top {
+    order:1
+  }
+}
