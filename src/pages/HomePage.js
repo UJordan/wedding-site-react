@@ -1,7 +1,6 @@
 import { Container, Row, Col } from 'reactstrap';
 import CassidyandJordanEngagementPhoto1 from '../app/assets/CassidyandJordanEngagementPhoto1.jpeg';
 import festival from '../app/assets/festival.jpeg';
-import SubHeader from '../components/SubHeader';
 
 const HomePage = () => {
 
