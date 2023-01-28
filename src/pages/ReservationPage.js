@@ -1,6 +1,14 @@
+import SubHeader from '../components/SubHeader';
+import { Container } from 'reactstrap';
+
 const ReservationPage = () => {
     return (
-        <div>ReservationPage</div>
+
+        <Container>
+            <SubHeader current='Reservation' />
+            <div>ReservationPage</div>
+        </Container>
+        
     )
 };
 

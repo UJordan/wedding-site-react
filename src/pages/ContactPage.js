@@ -1,6 +1,14 @@
+import SubHeader from '../components/SubHeader';
+import { Container } from 'reactstrap';
+
 const ContactPage = () => {
     return (
-        <div>ContactPage</div>
+
+        <Container>
+            <SubHeader current='Contact' />
+            <div>ContactPage</div>
+        </Container>
+        
     )
 };
 
