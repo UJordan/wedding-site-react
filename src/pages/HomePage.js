@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'reactstrap';
 import CassidyandJordanEngagementPhoto1 from '../app/assets/CassidyandJordanEngagementPhoto1.jpeg';
-import festival from '../app/assets/festival.jpeg';
+import CandJP119 from '../app/assets/CandJP119.jpeg';
 
 const HomePage = () => {
 
@@ -10,7 +10,7 @@ const HomePage = () => {
             <Container>
                 <Row className='align-items-center row-content text-center'>
                     <Col className='col-12 col-sm-6 bottom'>
-                        <img src={festival} alt='festival picture' className='img-fluid mt-5 mb-5 rounded-circle' />
+                        <img src={CandJP119} alt='festival picture' className='img-fluid rounded mt-5 mb-5' />
                     </Col>
                     <Col className='col-12 col-sm-6 mt-4 top'>
                         <h3 className='mb-4'>Our Story</h3>
