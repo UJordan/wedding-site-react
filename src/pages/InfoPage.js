@@ -30,7 +30,7 @@ const InfoPage = () => {
                             <address>123 S Wedding Rd, Anaheim, CA 12345</address>
                         </Col>
                         <Col class="col-12 col-sm-4 p-0" data-aos="fade-left">
-                            <img src={SummitHouseFullerton} class="img-fluid rounded" />
+                            <img src={SummitHouseFullerton} alt='restaurant' class="img-fluid rounded" />
                         </Col>
                     </Row>
                 </Container>
@@ -40,21 +40,21 @@ const InfoPage = () => {
                     <Col className='col-12 col-md-6'>
                         <Row>
                             <Col className='col-12 col-sm-6 col-lg-6 col-xl-6'>
-                                <img src={CandJP4} className='img-fluid rounded mt-2 mb-2 shadow-lg' />
+                                <img src={CandJP4} alt='beach one' className='img-fluid rounded mt-2 mb-2 shadow-lg' />
                             </Col>
                             <Col className='col-12 col-sm-6 col-lg-6 col-xl-6'>
-                                <img src={CandJP5} className='img-fluid rounded mt-2 mb-2 shadow-lg' />
+                                <img src={CandJP5} alt='beach two' className='img-fluid rounded mt-2 mb-2 shadow-lg' />
                             </Col>
                             <Col className='col-12 col-sm-6 col-lg-6 col-xl-6'>
-                                <img src={CandJP6} className='img-fluid rounded mt-4 mb-2 shadow-lg' />
+                                <img src={CandJP6} alt='beach three' className='img-fluid rounded mt-4 mb-2 shadow-lg' />
                             </Col>
                             <Col className='col-12 col-sm-6 col-lg-6 col-xl-6'>
-                                <img src={CandJP14} className='img-fluid rounded mt-4 mb-2 shadow-lg' />
+                                <img src={CandJP14} alt='beach four' className='img-fluid rounded mt-4 mb-2 shadow-lg' />
                             </Col>
                         </Row>
                     </Col>
                     <Col className='col-12 col-md-6'>
-                    <img src={CandJP21} className='img-fluid rounded mt-2 mb-2 shadow-lg' />
+                        <img src={CandJP21} alt='beach five' className='img-fluid rounded mt-2 mb-2 shadow-lg' />
                     </Col>
                 </Row>
 
