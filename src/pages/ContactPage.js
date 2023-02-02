@@ -13,6 +13,10 @@ const ContactPage = () => {
             <Container>
                 <SubHeader current='Contact' />
             </Container>
+            <div className='info align-items-center text-center'>
+                    <h3 className='pt-5 mb-5'>We look forward to celebrating with you</h3>
+                    <p className='pb-5'>Please feel free to contact us with any questions you mave about the ceremony</p>
+                </div>
             <div className='mt-5 contact'>
                 <h3>Get in touch!</h3>
                 <hr></hr>
