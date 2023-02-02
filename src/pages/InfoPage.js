@@ -18,7 +18,7 @@ const InfoPage = () => {
                     <h3>Ceremony & Celebration</h3>
                 </div>
                 <Container className='align-items-center text-center'>
-                    <Row className='mt-5 pb-5'>
+                    <Row className='mt-5 pb-5 align-items-center'>
                         <Col className='col-12 col-sm-4'>
                             <i class="fa fa-2x fa-calendar-check-o mb-3 mt-3"/>
                             <h4>Our Wedding Day</h4>
@@ -40,21 +40,21 @@ const InfoPage = () => {
                     <Col className='col-12 col-md-6'>
                         <Row>
                             <Col className='col-12 col-sm-6 col-lg-6 col-xl-6'>
-                                <img src={CandJP4} className='img-fluid rounded mt-2 mb-2' />
+                                <img src={CandJP4} className='img-fluid rounded mt-2 mb-2 shadow-lg' />
                             </Col>
                             <Col className='col-12 col-sm-6 col-lg-6 col-xl-6'>
-                                <img src={CandJP5} className='img-fluid rounded mt-2 mb-2' />
+                                <img src={CandJP5} className='img-fluid rounded mt-2 mb-2 shadow-lg' />
                             </Col>
                             <Col className='col-12 col-sm-6 col-lg-6 col-xl-6'>
-                                <img src={CandJP6} className='img-fluid rounded mt-4 mb-2' />
+                                <img src={CandJP6} className='img-fluid rounded mt-4 mb-2 shadow-lg' />
                             </Col>
                             <Col className='col-12 col-sm-6 col-lg-6 col-xl-6'>
-                                <img src={CandJP14} className='img-fluid rounded mt-4 mb-2' />
+                                <img src={CandJP14} className='img-fluid rounded mt-4 mb-2 shadow-lg' />
                             </Col>
                         </Row>
                     </Col>
                     <Col className='col-12 col-md-6'>
-                    <img src={CandJP21} className='img-fluid rounded mt-2 mb-2' />
+                    <img src={CandJP21} className='img-fluid rounded mt-2 mb-2 shadow-lg' />
                     </Col>
                 </Row>
 

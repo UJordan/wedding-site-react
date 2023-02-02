@@ -10,7 +10,7 @@ const HomePage = () => {
             <Container>
                 <Row className='align-items-center row-content text-center'>
                     <Col className='col-12 col-sm-6 bottom'>
-                        <img src={CandJP119} alt='festival picture' className='img-fluid rounded mt-5 mb-5' />
+                        <img src={CandJP119} alt='festival picture' className='img-fluid rounded mt-5 mb-5 shadow-lg' />
                     </Col>
                     <Col className='col-12 col-sm-6 mt-4 top'>
                         <h3 className='mb-4'>Our Story</h3>
