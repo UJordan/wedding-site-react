@@ -6,6 +6,15 @@ const HomePage = () => {
 
     return (
         <Container fluid className='mx-0 px-0'>
+            <div className='banner-card'>
+                <div className='banner-text text-center'>
+                    <div className='m-3'>
+                        <h3 className='text-light mb-3'>CASSIDY & JORDAN</h3>
+                        <h5 className='text-light mb-3'>MONTH 1, 2023</h5>
+                        <button className='btn btn-light btn-sm'>RSVP NOW</button>
+                    </div>
+                </div>
+            </div>
             <img src={CassidyandJordanEngagementPhoto1} alt='engagement photo one' className='img-fluid' />
             <Container>
                 <Row className='align-items-center row-content text-center'>

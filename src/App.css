@@ -9,6 +9,42 @@ footer {
   flex-direction: column;
 }
 
+.banner-card {
+  position: relative;
+}
+
+.banner-card img{
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.banner-text {
+  position: absolute;
+  margin-top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media all and (min-width: 576px) {
+	.text-light {
+		font-size: 26pt;
+	}
+	
+}
+
+@media all and (min-width: 768px) {
+	.text-light {
+		font-size: 32pt;
+	}
+}
+
+@media all and (min-width: 992px) {
+	.text-light {
+		font-size: 40pt;
+	}
+}
+
 .info {
   background-color: #b8c5d1;
 }
