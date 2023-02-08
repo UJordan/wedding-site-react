@@ -1,4 +1,5 @@
 import { Container, Row, Col, Button } from 'reactstrap';
+import RsvpModal from '../features/RsvpModal';
 import CassidyandJordanEngagementPhoto1 from '../app/assets/CassidyandJordanEngagementPhoto1.jpeg';
 import CandJP119 from '../app/assets/CandJP119.jpeg';
 
@@ -11,7 +12,8 @@ const HomePage = () => {
                     <div className='m-3'>
                         <h3 className='text-light mb-3'>CASSIDY & JORDAN</h3>
                         <h5 className='text-light mb-3'>MONTH 1, 2023</h5>
-                        <Button className='btn-sm' variant='secondary'>RSVP NOW</Button>
+                        <RsvpModal  />
+                        {/* <Button className='btn-sm' variant='secondary'>RSVP NOW</Button> */}
                     </div>
                 </div>
             </div>

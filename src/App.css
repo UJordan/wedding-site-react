@@ -35,14 +35,24 @@ footer {
 
 @media all and (min-width: 768px) {
 	.text-light {
-		font-size: 30pt;
+		font-size: 25pt;
 	}
 }
 
 @media all and (min-width: 992px) {
 	.text-light {
-		font-size: 40pt;
+		font-size: 30pt;
 	}
+}
+
+@media all and (min-width: 1100px) {
+	.text-light {
+		font-size: 35pt;
+	}
+}
+
+.modal-header {
+	background-color: #b8c5d1;
 }
 
 .info {
