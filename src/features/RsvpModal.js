@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
 import { FormGroup, Label } from 'reactstrap';
+import {Formik, Field, Form} from 'formik';
 
 
 const RsvpModal = () => {
@@ -8,32 +9,45 @@ const RsvpModal = () => {
 
     return (
         <>
-            <Button className='text-white border-white' outline onClick={() => setModalOpen(true)}>
+            <Button color='secondary' onClick={() => setModalOpen(true)}>
                 RSVP NOW
             </Button>
             <Modal isOpen={modalOpen}>
                 <ModalHeader className='text-white' toggle={() => setModalOpen(false)}>
-                    RSVP NOW!
+                    <h3 className='modal-title'>RSVP NOW!</h3>
                 </ModalHeader>
                 <ModalBody>
-                    <div className='container-fluid'>
-                        <form id='modal-form'>
-                            <div className='form-row'>
-                                <div className='msg'></div>
-                                <div className='form-group col-12'>
-                                    <label className='sr-only' for='firstName'>First Name</label>
-                                    <input className='form-control form-control-sm' id='firstName' placeholder='First Name'></input>
-                                </div>
-                                <div className='form-group col-12'>
-                                    <label className='sr-only' for='lastName'>Last Name</label>
-                                    <input className='form-control form-control-sm' id='lastName' placeholder='Last Name'></input>
-                                </div>
-                            </div>
-                            <div className='form-row'>
-                                <Button type='submit' value='submit' className='btn btn-primary btn-sm'>Submit</Button>
-                            </div>
-                        </form>
-                    </div>
+                    <Formik>
+                        <Form>
+                            <FormGroup>
+                                <Label htmlFor='firstName'>
+                                    First Name
+                                </Label>
+                                <Field 
+                                    name='firstName'
+                                    placeholder='First Name'
+                                    className='form-control'
+                                >
+                                </Field>
+                                </FormGroup>
+                            <FormGroup>
+                                <Label htmlFor='firstName'>
+                                    Last Name
+                                </Label>
+                                <Field 
+                                    name='lastName'
+                                    placeholder='Last Name'
+                                    className='form-control'
+                                >
+                                </Field>
+                            </FormGroup>
+                            <FormGroup>
+                                <Button type='submit' color='primary'>
+                                    Submit
+                                </Button>
+                            </FormGroup>
+                        </Form>
+                    </Formik>
                 </ModalBody>
             </Modal>
         </>

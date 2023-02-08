@@ -12,8 +12,9 @@ const HomePage = () => {
                     <div className='m-3'>
                         <h3 className='text-light mb-3'>CASSIDY & JORDAN</h3>
                         <h5 className='text-light mb-3'>MONTH 1, 2023</h5>
-                        <RsvpModal  />
-                        {/* <Button className='btn-sm' variant='secondary'>RSVP NOW</Button> */}
+                        <div className=''>
+                            <RsvpModal />
+                        </div>
                     </div>
                 </div>
             </div>

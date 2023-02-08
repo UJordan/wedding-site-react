@@ -2,7 +2,8 @@ import SubHeader from '../components/SubHeader';
 import { Container, Row, Col, Button } from 'reactstrap';
 import ring from '../app/assets/ring.jpeg';
 import hotel from '../app/assets/hotel.jpeg';
-import gift from '../app/assets/gift.jpeg'
+import gift from '../app/assets/gift.jpeg';
+import RsvpModal from '../features/RsvpModal';
 
 const ReservationPage = () => {
     return (
@@ -17,9 +18,7 @@ const ReservationPage = () => {
                         <p>Join us on our special day</p>
                         <h3>Reserve your spot</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat aliquet ex, tincidunt elementum nunc facilisis nec. In sollicitudin turpis at lacinia volutpat. Fusce dapibus rutrum est in varius. Fusce finibus vestibulum ipsum sit amet lobortis. Aenean eu gravida lorem. Pellentesque eleifend scelerisque fringilla. Ut vitae nunc cursus, porttitor ligula ut, gravida arcu.</p>
-                        <Button variant='secondary'>
-                            RSVP
-                        </Button>
+                        <RsvpModal />
                     </Col>
                     <Col className='bottom'>
                         <img src={ring} alt='ring' className='img-fluid rounded mt-2 mb-2 shadow-lg' />
