@@ -6,9 +6,16 @@ import InfoPage from './pages/InfoPage';
 import ReservationPage from './pages/ReservationPage';
 import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import './App.css';
 
 function App() {
+  // useEffect(() => {
+    AOS.init()
+// }, []);
+
   return (
     <div className="App">
       <Header />
