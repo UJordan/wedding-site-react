@@ -14,8 +14,8 @@ const InfoPage = () => {
                 <SubHeader current='Info'/>
             </Container>
             <div className='m-0 info'>
-                <div className='text-center pt-5 pb-4'>
-                    <h3>Ceremony & Celebration</h3>
+                <div className='text-center pt-5 pb-1'>
+                    <h3 className='pt-2'><strong>Ceremony & Celebration</strong></h3>
                 </div>
                 <Container className='align-items-center text-center'>
                     <Row className='mt-5 pb-5 align-items-center'>

@@ -3,6 +3,23 @@ footer {
   margin-top: auto;
 }
 
+h2, h3, h4, h5 {
+  font-family: "Playfair Display";
+}
+
+li {
+  font-family: "Vidaloka Display";
+}
+
+li:hover {
+  color: #7aaad7;
+
+}
+
+.title:hover {
+  color: #7aaad7;
+}
+
 .App {
   min-height: 100vh;
   display: flex;

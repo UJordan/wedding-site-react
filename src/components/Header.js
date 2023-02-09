@@ -8,36 +8,37 @@ const Header = () => {
     return (
         <Navbar className='navbar navbar-expand-sm navbar-light bg-light sticky-top'>
             <NavbarBrand>
-                <h4 className='mt-2 ms-2'> CASSIDY & JORDAN </h4>
+                <NavLink className='nav-link' to='/'>
+                    <h4 className='mt-2 ms-2 title'><strong> CASSIDY & JORDAN </strong></h4>
+                </NavLink>
             </NavbarBrand>
 
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
             <Collapse isOpen={menuOpen} navbar>
                 <Nav className='ms-auto' navbar>
                     <NavItem>
-                        <NavLink className='nav-link' to='/'>
-                            <i />HOME
+                        <NavLink className='nav-link active' to='/'>
+                            <li>HOME</li>
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/info'>
-                            <i />INFO
+                            <li>INFO</li>
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/reservation'>
-                            <i />RESERVATION
+                            <li>RESERVATION</li>
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/contact'>
-                            <i />CONTACT
+                            <li>CONTACT</li>
                         </NavLink>
                     </NavItem>
                 </Nav>
             </Collapse>
-        </Navbar>
-        
+        </Navbar>  
     );
 }
 

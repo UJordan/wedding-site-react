@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import RsvpModal from '../features/RsvpModal';
 import CassidyandJordanEngagementPhoto1 from '../app/assets/CassidyandJordanEngagementPhoto1.jpeg';
 import CandJP119 from '../app/assets/CandJP119.jpeg';
@@ -13,8 +13,8 @@ const HomePage = () => {
                 <div className='banner-card'>
                     <div className='banner-text text-center'>
                         <div className='m-3'>
-                            <h3 className='text-light mb-3'>CASSIDY & JORDAN</h3>
-                            <h5 className='text-light mb-3'>MONTH 1, 2023</h5>
+                            <h3 className='text-light mb-3'><strong>CASSIDY & JORDAN</strong></h3>
+                            <h5 className='text-light mb-3'>Month 1, 2023</h5>
                             <div className=''>
                                 <RsvpModal />
                             </div>
