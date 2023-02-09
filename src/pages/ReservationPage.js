@@ -16,7 +16,7 @@ const ReservationPage = () => {
                 <Row className='mt-5 mb-5 align-items-center' data-aos="fade-left" data-aos-offset="500" data-aos-duration="1000">
                     <Col className='col-12 col-sm-6 col-lg-6 col-xl-6' >
                         <p>Join us on our special day</p>
-                        <h3>Reserve your spot</h3>
+                        <h3>Reservation</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat aliquet ex, tincidunt elementum nunc facilisis nec. In sollicitudin turpis at lacinia volutpat. Fusce dapibus rutrum est in varius. Fusce finibus vestibulum ipsum sit amet lobortis. Aenean eu gravida lorem. Pellentesque eleifend scelerisque fringilla. Ut vitae nunc cursus, porttitor ligula ut, gravida arcu.</p>
                         <RsvpModal />
                     </Col>

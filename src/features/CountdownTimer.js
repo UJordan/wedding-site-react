@@ -41,7 +41,7 @@ const CountdownTimer = () => {
     });
 
     return (
-        <section className='timer text-white m-3'>
+        <section className='timer text-white m-3' style={{ fontSize: '2vw'}}>
             <div className=''>
                 <section>
                     <p className='mt-3 mb-0 pb-0'>{timerDays}</p>

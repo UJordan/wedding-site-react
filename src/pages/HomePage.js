@@ -14,13 +14,13 @@ const HomePage = () => {
                 <div className='banner-card'>
                     <div className='banner-text text-center'>
                         <div className='m-2'>
-                            <h3 className='text-light mb-1'><strong>CASSIDY & JORDAN</strong></h3>
-                            <h5 className='text-light mb-1'>Month 1, 2023</h5>
+                            <h3 className='text-light mb-1' style={{ fontSize: '3.5vw'}}><strong>CASSIDY & JORDAN</strong></h3>
+                            <h5 className='text-light mb-1' style={{ fontSize: '3.5vw'}}>Month 1, 2023</h5>
                             <div>
                                 <CountdownTimer />
                             </div>
-                            <div className=''>
-                                <RsvpModal className='rsvp'/>
+                            <div>
+                                <RsvpModal />
                             </div>
                         </div>
                     </div>

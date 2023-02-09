@@ -44,42 +44,6 @@ li:hover {
   transform: translate(-50%, -50%);
 }
 
-@media all and (min-width: 375px) {
-	.text-light {
-		font-size: 12pt;
-	}
-}
-
-@media all and (min-width: 576px) {
-	.text-light {
-		font-size: 20pt;
-	}
-}
-
-@media all and (min-width: 768px) {
-	.text-light {
-		font-size: 25pt;
-	}
-}
-
-@media all and (min-width: 992px) {
-	.text-light {
-		font-size: 30pt;
-	}
-}
-
-@media all and (min-width: 1100px) {
-	.text-light {
-		font-size: 35pt;
-	}
-}
-
-/* @media all and (min-width: 374px) {
-  .rsvp {
-    size;
-  }
-} */
-
 .modal-header {
 	background-color: #b8c5d1;
 }
@@ -114,31 +78,13 @@ li:hover {
 }
 
 section {
-  font-size: 1.4em;
+  /* font-size: 1.4em; */
   padding-left: 5%;
   padding-right: 5%;
 }
 
-@media all and (min-width: 375px) {
-  .timer {
-    font-size: 4pt;
-  }
-}
-
-@media all and (min-width: 576px) {
-	.timer {
-		font-size: 7pt;
-	}
-}
-
-@media all and (min-width: 768px) {
-	.timer {
-		font-size: 10pt;
-	}
-}
-
 span {
   text-align: center;
-  font-size: em;
+  /* font-size: em; */
 }
 /* Timer on HomePage */
