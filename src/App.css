@@ -7,7 +7,7 @@ h2, h3, h4, h5 {
   font-family: "Playfair Display";
 }
 
-li {
+li, p {
   font-family: "Vidaloka Display";
 }
 
@@ -37,17 +37,23 @@ li:hover {
 }
 
 .banner-text {
+  background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   margin-top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+@media all and (min-width: 375px) {
+	.text-light {
+		font-size: 12pt;
+	}
+}
+
 @media all and (min-width: 576px) {
 	.text-light {
 		font-size: 20pt;
 	}
-	
 }
 
 @media all and (min-width: 768px) {
@@ -67,6 +73,12 @@ li:hover {
 		font-size: 35pt;
 	}
 }
+
+/* @media all and (min-width: 374px) {
+  .rsvp {
+    size;
+  }
+} */
 
 .modal-header {
 	background-color: #b8c5d1;
@@ -90,3 +102,43 @@ li:hover {
     order:1
   }
 }
+
+/* Timer on HomePage */
+.timer {
+  display: flex;
+  flex: column;
+  border: 1px solid white;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 3%;
+}
+
+section {
+  font-size: 1.4em;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@media all and (min-width: 375px) {
+  .timer {
+    font-size: 4pt;
+  }
+}
+
+@media all and (min-width: 576px) {
+	.timer {
+		font-size: 7pt;
+	}
+}
+
+@media all and (min-width: 768px) {
+	.timer {
+		font-size: 10pt;
+	}
+}
+
+span {
+  text-align: center;
+  font-size: em;
+}
+/* Timer on HomePage */
