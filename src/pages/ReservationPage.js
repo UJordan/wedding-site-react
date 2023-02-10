@@ -32,7 +32,7 @@ const ReservationPage = () => {
                         <p>Places to stay</p>
                         <h3>Accomodations</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat aliquet ex, tincidunt elementum nunc facilisis nec. In sollicitudin turpis at lacinia volutpat. Fusce dapibus rutrum est in varius. Fusce finibus vestibulum ipsum sit amet lobortis. Aenean eu gravida lorem. Pellentesque eleifend scelerisque fringilla. Ut vitae nunc cursus, porttitor ligula ut, gravida arcu.</p>
-                        <Button variant="secondary">
+                        <Button variant="secondary" href='https://www.booking.com/'>
                             BOOK
                         </Button>
                     </Col>
@@ -42,7 +42,7 @@ const ReservationPage = () => {
                         <p>Please check out our registry</p>
                         <h3>Registry</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat aliquet ex, tincidunt elementum nunc facilisis nec. In sollicitudin turpis at lacinia volutpat. Fusce dapibus rutrum est in varius. Fusce finibus vestibulum ipsum sit amet lobortis. Aenean eu gravida lorem. Pellentesque eleifend scelerisque fringilla. Ut vitae nunc cursus, porttitor ligula ut, gravida arcu.</p>
-                        <Button variant="secondary">
+                        <Button variant="secondary" href='https://www.zola.com/?clickid=yAGT%3AlRVrxyNUEJwFVwscw3UUkA3PjR1M2TlxE0&irgwc=1&utm_medium=Affiliate&utm_source=Impact&utm_campaign=10078&affsrc=1&pkey=Affiliate'>
                             REGISTRY
                         </Button>
                     </Col>
