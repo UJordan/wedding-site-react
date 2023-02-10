@@ -1,4 +1,4 @@
-import SubHeader from '../components/SubHeader';
+// import SubHeader from '../components/SubHeader';
 import { Container, Row, Col } from 'reactstrap';
 import SummitHouseFullerton from '../app/assets/SummitHouseFullerton.jpeg';
 import CandJP4 from '../app/assets/CandJP4.jpeg';
@@ -10,26 +10,26 @@ import CandJP21 from '../app/assets/CandJP21.jpeg';
 const InfoPage = () => {
     return (
         <div>
-            <Container>
+            {/* <Container>
                 <SubHeader current='Info'/>
-            </Container>
+            </Container> */}
             <div className='m-0 info'>
                 <div className='text-center pt-5 pb-1'>
                     <h3 className='pt-2'><strong>Ceremony & Celebration</strong></h3>
                 </div>
                 <Container className='align-items-center text-center'>
                     <Row className='mt-5 pb-5 align-items-center'>
-                        <Col className='col-12 col-sm-4' data-aos='fade-right' data-aos-duration="2000">
+                        <Col className='col-12 col-sm-4' data-aos='fade-right' data-aos-duration="1000">
                             <i class="fa fa-2x fa-calendar-check-o mb-3 mt-3"/>
                             <h4>Our Wedding Day</h4>
                             <p>Please join us on September 10, 2023 to celebrate our special day</p>
                         </Col>
-                        <Col className='col-12 col-sm-4' data-aos='flip-up' data-aos-duration="2000">
+                        <Col className='col-12 col-sm-4' data-aos='flip-up' data-aos-duration="1000">
                             <i class="fa fa-2x fa-map-o mb-3 mt-3" aria-hidden="true"></i>
                             <h4>Some Wedding Venue</h4>
                             <address>123 S Wedding Rd, Anaheim, CA 12345</address>
                         </Col>
-                        <Col class="col-12 col-sm-4 p-0" data-aos="fade-left" data-aos-duration="2000">
+                        <Col class="col-12 col-sm-4 p-0" data-aos="fade-left" data-aos-duration="1000">
                             <img src={SummitHouseFullerton} alt='restaurant' class="img-fluid rounded" />
                         </Col>
                     </Row>

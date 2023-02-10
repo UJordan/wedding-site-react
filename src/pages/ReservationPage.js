@@ -1,4 +1,4 @@
-import SubHeader from '../components/SubHeader';
+// import SubHeader from '../components/SubHeader';
 import { Container, Row, Col, Button } from 'reactstrap';
 import ring from '../app/assets/ring.jpeg';
 import hotel from '../app/assets/hotel.jpeg';
@@ -9,11 +9,11 @@ const ReservationPage = () => {
     return (
 
         <div>
-            <Container>
+            {/* <Container>
                 <SubHeader current='Reservation' />
-            </Container>
+            </Container> */}
             <Container>
-                <Row className='mt-5 mb-5 align-items-center' data-aos="fade-left" data-aos-offset="500" data-aos-duration="1000">
+                <Row className='mt-5 mb-5 align-items-center' data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000">
                     <Col className='col-12 col-sm-6 col-lg-6 col-xl-6' >
                         <p>Join us on our special day</p>
                         <h3>Reservation</h3>
@@ -24,7 +24,7 @@ const ReservationPage = () => {
                         <img src={ring} alt='ring' className='img-fluid rounded mt-2 mb-2 shadow-lg' />
                     </Col>
                 </Row>
-                <Row className='mb-5 align-items-center' data-aos="fade-right" data-aos-offset="500" data-aos-duration="1000">
+                <Row className='mb-5 align-items-center' data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000">
                     <Col className='col-12 col-sm-6 col-lg-6 col-xl-6 top'>
                         <img src={hotel} alt='hotel' className='img-fluid rounded mt-2 mb-2 shadow-lg' />
                     </Col>

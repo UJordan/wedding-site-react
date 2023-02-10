@@ -1,4 +1,4 @@
-import SubHeader from '../components/SubHeader';
+// import SubHeader from '../components/SubHeader';
 import { Container, Button, Label, Col, FormGroup } from 'reactstrap';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 
@@ -10,9 +10,9 @@ const ContactPage = () => {
     return (
 
         <div>
-            <Container>
+            {/* <Container>
                 <SubHeader current='Contact' />
-            </Container>
+            </Container> */}
             <div className='info align-items-center text-center'>
                     <h3 className='pt-5 mb-5'>We look forward to celebrating with you</h3>
                     <p className='pb-5'>Please feel free to contact us with any questions you mave about the ceremony</p>

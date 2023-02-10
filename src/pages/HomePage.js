@@ -10,7 +10,7 @@ const HomePage = () => {
 
     return (
         <Container fluid className='mx-0 px-0'>
-            <div data-aos='zoom-in' data-aos-duration='3000'>
+            <div data-aos='zoom-in' data-aos-duration='1000'>
                 <div className='banner-card'>
                     <div className='banner-text text-center'>
                         <div className='m-2'>
@@ -30,7 +30,7 @@ const HomePage = () => {
             <Container>
                 <Row className='align-items-center row-content text-center'>
                     <Col className='col-12 col-sm-6 bottom' >
-                        <img src={CandJP119} alt='festival picture' className='img-fluid rounded mt-5 mb-5 shadow-lg' data-aos='fade-right' data-aos-duration="2000" data-aos-easing="ease-in-sine" />
+                        <img src={CandJP119} alt='festival picture' className='img-fluid rounded mt-5 mb-5 shadow-lg' data-aos='fade-right' data-aos-duration="1000" data-aos-easing="ease-in-sine" />
                     </Col>
                     <Col className='col-12 col-sm-6 mt-4 top'>
                         <h3 className='mb-4'>Our Story</h3>
