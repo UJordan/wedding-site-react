@@ -1,11 +1,11 @@
 // import SubHeader from '../components/SubHeader';
 import { Container, Row, Col } from 'reactstrap';
 import SummitHouseFullerton from '../app/assets/SummitHouseFullerton.jpeg';
+import CandJP2 from '../app/assets/CandJP2.jpeg';
+import CandJP3 from '../app/assets/CandJP3.jpeg';
 import CandJP4 from '../app/assets/CandJP4.jpeg';
-import CandJP5 from '../app/assets/CandJP5.jpeg';
+import CandJP5 from '../app/assets/CandJP5.jpg';
 import CandJP6 from '../app/assets/CandJP6.jpeg';
-import CandJP14 from '../app/assets/CandJP14.jpeg';
-import CandJP21 from '../app/assets/CandJP21.jpeg';
 
 const InfoPage = () => {
     return (
@@ -40,21 +40,21 @@ const InfoPage = () => {
                     <Col className='col-12 col-md-6'>
                         <Row>
                             <Col className='col-12 col-sm-6 col-lg-6 col-xl-6'>
-                                <img src={CandJP4} alt='beach one' className='img-fluid rounded mt-2 mb-2 shadow-lg' data-aos="zoom-in-down" data-aos-duration="2000"/>
+                                <img src={CandJP2} alt='beach one' className='img-fluid rounded mt-2 mb-2 shadow-lg' data-aos="zoom-in-down" data-aos-duration="2000"/>
                             </Col>
                             <Col className='col-12 col-sm-6 col-lg-6 col-xl-6'>
-                                <img src={CandJP5} alt='beach two' className='img-fluid rounded mt-2 mb-2 shadow-lg' data-aos="zoom-in-down" data-aos-duration="2000"/>
+                                <img src={CandJP3} alt='beach two' className='img-fluid rounded mt-2 mb-2 shadow-lg' data-aos="zoom-in-down" data-aos-duration="2000"/>
                             </Col>
                             <Col className='col-12 col-sm-6 col-lg-6 col-xl-6'>
-                                <img src={CandJP6} alt='beach three' className='img-fluid rounded mt-4 mb-2 shadow-lg' data-aos="zoom-in-up" data-aos-duration="2000"/>
+                                <img src={CandJP4} alt='beach three' className='img-fluid rounded mt-4 mb-2 shadow-lg' data-aos="zoom-in-up" data-aos-duration="2000"/>
                             </Col>
                             <Col className='col-12 col-sm-6 col-lg-6 col-xl-6'>
-                                <img src={CandJP14} alt='beach four' className='img-fluid rounded mt-4 mb-2 shadow-lg' data-aos="zoom-in-up" data-aos-duration="2000"/>
+                                <img src={CandJP5} alt='beach four' className='img-fluid rounded mt-4 mb-2 shadow-lg' data-aos="zoom-in-up" data-aos-duration="2000"/>
                             </Col>
                         </Row>
                     </Col>
                     <Col className='col-12 col-md-6'>
-                        <img src={CandJP21} alt='beach five' className='img-fluid rounded mt-2 mb-2 shadow-lg' data-aos="zoom-in-left" data-aos-duration="2000"/>
+                        <img src={CandJP6} alt='beach five' className='img-fluid rounded mt-2 mb-2 shadow-lg' data-aos="zoom-in-left" data-aos-duration="2000"/>
                     </Col>
                 </Row>
 

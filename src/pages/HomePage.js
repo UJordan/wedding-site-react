@@ -1,8 +1,8 @@
 import { Container, Row, Col } from 'reactstrap';
 import CountdownTimer from '../features/CountdownTimer';
 import RsvpModal from '../features/RsvpModal';
-import CassidyandJordanEngagementPhoto1 from '../app/assets/CassidyandJordanEngagementPhoto1.jpeg';
-import CandJP119 from '../app/assets/CandJP119.jpeg';
+import CandJP1 from '../app/assets/CandJP1.jpeg';
+import CandJP10 from '../app/assets/CandJP10.jpeg';
 
 
 const HomePage = () => {
@@ -25,12 +25,12 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-                <img src={CassidyandJordanEngagementPhoto1} alt='engagement photo one' className='img-fluid' />
+                <img src={CandJP1} alt='engagement photo one' className='img-fluid' />
             </div>
             <Container>
                 <Row className='align-items-center row-content text-center'>
                     <Col className='col-12 col-sm-6 bottom' >
-                        <img src={CandJP119} alt='festival picture' className='img-fluid rounded mt-5 mb-5 shadow-lg' data-aos='fade-right' data-aos-duration="1000" data-aos-easing="ease-in-sine" />
+                        <img src={CandJP10} alt='festival picture' className='img-fluid rounded mt-5 mb-5 shadow-lg' data-aos='fade-right' data-aos-duration="1000" data-aos-easing="ease-in-sine" />
                     </Col>
                     <Col className='col-12 col-sm-6 mt-4 top'>
                         <h3 className='mb-4'>Our Story</h3>

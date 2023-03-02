@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef, useCallback } from 'react';
 
 const CountdownTimer = () => {
     const [timerDays, setTimerDays] = useState('00');
@@ -8,7 +8,7 @@ const CountdownTimer = () => {
 
     let interval = useRef();
 
-    const startTimer = () => {
+    const startTimer = useCallback(() => {
         const countdownDate = new Date('August 19, 2023 00:00:00').getTime();
 
         interval = setInterval(() => {
@@ -31,14 +31,15 @@ const CountdownTimer = () => {
             }
 
         }, 1000);
-    };
+    },[]);
 
     useEffect(() => {
         startTimer();
+        // console.log(1);
         return () => {
             clearInterval(interval.current);
         }
-    });
+    }, [startTimer]);
 
     return (
         <section className='timer text-white m-3' style={{ fontSize: '2vw'}}>
